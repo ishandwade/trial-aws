@@ -25,3 +25,9 @@ Same logic, but now event-driven, concurrent, and streamed live.
 We don’t rewrite. We wrap.
 
 This is how real systems are built.
+
+
+
+- Polling time has to be reduced in production from 5 seconds that were doing locally as the host is flagging me as a bot if its under 5 or even at 5, if possible avoid api calls
+- Instead of making one polling time for all we can have an adaptive polling time for each token based off their trade volumes
+- Slippage 
